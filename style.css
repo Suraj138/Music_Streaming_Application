@@ -5,14 +5,24 @@ body {
 }
 
 .player {
-  height: 80vh;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  width: 100%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
+
+/* .player {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+} */
 
 .wrapper {
   border: 1px solid transparent;
@@ -32,8 +42,8 @@ body {
 
 .track-art {
   margin: 25px;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   border: 2px solid #FFFAFA;
   background-size: cover;
   background-position: center;
